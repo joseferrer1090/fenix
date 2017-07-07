@@ -1,0 +1,470 @@
+Time : 15:26:23
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 15:26:20
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:50:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select * From user_id WHERE uid = :uid
+
+Time : 14:45:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select * From user_id WHERE uid = :uid
+
+Time : 14:36:07
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:35:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:42
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:41
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:39
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:14
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:35:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:35:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:34:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:34:39
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:34:37
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:34:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:34:02
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:34:02
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:34:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:33:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:33:57
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'indoweb_baru.settings' doesn't exist
+Raw SQL : SELECT * FROM settings WHERE name = :keys
+
+Time : 14:33:48
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:33:26
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 14:33:23
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:24:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:20:02
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:19:06
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:17:41
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:10:56
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:10:14
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:09:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:08:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:08:13
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 03:08:11
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:59:08
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:59:07
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:23
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:22
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:21
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:21
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:21
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:20
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:20
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:20
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:19
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:19
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:19
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:18
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:18
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:18
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:17
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:17
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:17
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:16
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:56:15
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:48
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:43
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:43
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:43
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:42
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:42
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:42
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:41
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:11
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:10
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:10
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:10
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:09
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:09
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:08
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:08
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:08
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:07
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:07
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:07
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:06
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:06
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:06
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:05
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:05
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:05
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:04
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:04
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:55:04
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:58
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:58
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:57
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:57
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:57
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:56
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:56
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:56
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:55
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:55
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:55
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:54
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:54
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:54
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:53
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:53
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:53
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:52
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:52
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:52
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:51
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:51
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:50
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:50
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:50
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:49
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:49
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:49
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:48
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:48
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:48
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:47
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:45
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:54:44
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 02:20:15
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:20:15
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:20:12
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:20:10
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:20:08
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:20:06
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:19:47
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:19:43
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:16:48
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+
+Time : 02:14:04
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known

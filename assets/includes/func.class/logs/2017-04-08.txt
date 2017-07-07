@@ -1,0 +1,11 @@
+Time : 10:16:11
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM fund_transaction WHERE  (to_id = :to OR from_id = :from)  AND DATE(date) >= :tgl AND DATE(date) <= :tgl ORDER BY trans_id DESC LIMIT 10 OFFSET :page
+
+Time : 10:15:22
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM fund_transaction WHERE  (to_id = :to OR from_id = :from)  AND DATE(date) >= :tgl AND DATE(date) <= :tgl ORDER BY trans_id DESC LIMIT 10 OFFSET :page
+
+Time : 10:14:32
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM fund_transaction WHERE  (to_id = :to OR from_id = :from)  AND DATE(date) >= :tgl AND DATE(date) <= :tgl ORDER BY trans_id DESC LIMIT 10 OFFSET :page

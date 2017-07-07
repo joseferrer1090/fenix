@@ -1,0 +1,15 @@
+Time : 09:59:11
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ip_adress' in 'field list'
+Raw SQL : INSERT INTO login_log(uname,date,ip_adress,status) VALUES(:uname,CURRENT_TIMESTAMP,:ip,:status)
+
+Time : 09:58:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ip_adress' in 'field list'
+Raw SQL : INSERT INTO login_log(uname,date,ip_adress,status) VALUES(:uname,CURRENT_TIMESTAMP,:ip,:status)
+
+Time : 09:32:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECR * FROM product WHERE product_id = ?' at line 1
+Raw SQL : SELECR * FROM product WHERE product_id = :productid
+
+Time : 09:32:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECR * FROM product WHERE product_id = ?' at line 1
+Raw SQL : SELECR * FROM product WHERE product_id = :productid

@@ -1,0 +1,7 @@
+Time : 05:58:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rol' in 'field list'
+Raw SQL : SELECT rol FROM  `user_id` where uid=19
+
+Time : 05:58:54
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rol' in 'field list'
+Raw SQL : SELECT rol FROM  `user_id` where uid=19

@@ -1,0 +1,15 @@
+Time : 11:52:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE to_id = :to_id AND type <> ;
+
+Time : 11:52:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE to_id = :to_id AND type <> ;
+
+Time : 11:52:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE to_id = :to_id AND type <> ;
+
+Time : 11:52:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE to_id = :to_id AND type <> ;

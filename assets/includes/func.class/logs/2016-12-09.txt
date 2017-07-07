@@ -1,0 +1,7 @@
+Time : 09:59:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(type,nominal,details,from_id,to_id,date) VALUES('11',:current_utilities,:notes,:from,:to,NOW())
+
+Time : 09:59:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(type,nominal,details,from_id,to_id,date) VALUES('11',:current_utilities,:notes,:from,:to,NOW())

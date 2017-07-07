@@ -1,0 +1,15 @@
+Time : 07:11:45
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parentid' at row 1
+Raw SQL : INSERT INTO genealogy(uid,parentid,sponsorid) VALUES(:uid,:parent,:sponsor)
+
+Time : 06:44:47
+SQLSTATE[HY000]: General error: 1364 Field 'pin' doesn't have a default value
+Raw SQL : INSERT INTO user_id(uname,password,register_date,role,product,state) VALUES(:uname,:pass,CURDATE(),'1',:product,:state)
+
+Time : 06:35:18
+SQLSTATE[HY000]: General error: 1364 Field 'pin' doesn't have a default value
+Raw SQL : INSERT INTO user_id(uname,password,register_date,role,product,state) VALUES(:uname,:pass,CURDATE(),'1',:product,:state)
+
+Time : 06:28:17
+SQLSTATE[HY000]: General error: 1364 Field 'pin' doesn't have a default value
+Raw SQL : INSERT INTO user_id(uname,password,register_date,role,product,state) VALUES(:uname,:pass,CURDATE(),'1',:product,:state)

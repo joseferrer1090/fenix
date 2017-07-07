@@ -1,0 +1,11 @@
+Time : 22:44:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE uid = ?' at line 1
+Raw SQL : SELECT user_id WHERE uid = :userrid
+
+Time : 22:43:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE uid = ?' at line 1
+Raw SQL : SELECT user_id WHERE uid = :usrid
+
+Time : 22:42:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE uid = ?' at line 1
+Raw SQL : SELECT user_id WHERE uid = :usrid

@@ -1,0 +1,23 @@
+Time : 21:57:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37
+
+Time : 21:57:35
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37
+
+Time : 21:57:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37
+
+Time : 21:57:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37
+
+Time : 21:57:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37
+
+Time : 21:57:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product WHERE disable = 0 and id>37

@@ -1,0 +1,87 @@
+Time : 23:52:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),8, :takenfund, :from,'WITHDRAWAL # :idwithdraw',0)
+
+Time : 23:51:10
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),8, :takenfund, :from,'WITHDRAWAL # :idwithdraw',0)
+
+Time : 23:49:15
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),8,:takenfund,:from,'WITHDRAWAL #:idwithdraw',0)
+
+Time : 23:46:14
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),'8',:takenfund,:from,'WITHDRAWAL #:idwithdraw','0');
+
+Time : 23:42:33
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),'8',:takenfund,:from,'WITHDRAWAL #:idwithdraw','0');
+
+Time : 23:40:18
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),'8',:takenfund,:from,'WITHDRAWAL #:idwithdraw','0');
+
+Time : 23:39:23
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),'8',:takenfund,:from,'WITHDRAWAL #:idwithdraw','0');
+
+Time : 23:36:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES (NO' at line 1
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES(NOW(),'8',:takenfund,:from,'WITHDRAWAL #:idwithdraw','0');INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id) VALUES (NOW(),'10',:takenregister,:from,'WITHDRAWAL #:idwithdraw','0')
+
+Time : 16:54:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND id = :id
+
+Time : 16:54:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND id = :id
+
+Time : 16:32:06
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND bank_id = '1'
+
+Time : 16:31:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND bank_id = 1
+
+Time : 16:30:48
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND bank_id = 1;
+
+Time : 16:30:06
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND bank_id = :bank_id;
+
+Time : 16:29:23
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_bank WHERE uid = :uid AND bank_id = :bank_id;
+
+Time : 01:03:35
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uname' in 'field list'
+Raw SQL : INSERT INTO fund_transaction(uname,nominal,details,from_id,to_id,date) VALUES(:uname,:nominal,:notes,:from,:to,NOW())
+
+Time : 01:02:39
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO fund_transaction(uname,nominal,details,from_id,to_id,date) VALUES(:uname,:nominal,:from,:to,NOW())
+
+Time : 00:59:56
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE uname = :uname
+
+Time : 00:59:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE uname = :uname
+
+Time : 00:58:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE uname = :uname
+
+Time : 00:54:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,to_id,details) VALUES(NOW(),'1',:nominal,:from,:to,:notes)
+
+Time : 00:50:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,to_id,details) VALUES(:date,'1',:nominal,:from,:to,:notes)

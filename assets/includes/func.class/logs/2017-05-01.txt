@@ -1,0 +1,35 @@
+Time : 22:23:34
+SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'earthbitcoincom.ipagemysql.com' (111)
+
+Time : 22:23:25
+SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'earthbitcoincom.ipagemysql.com' (111)
+
+Time : 04:08:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id,type_fund) VALUES(NOW(),'4',:nom,:from,:notes,:to,type_fund)
+
+Time : 04:08:00
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO fund_transaction(date,type,nominal,from_id,details,to_id,type_fund) VALUES(NOW(),'4',:nom,:from,:notes,:to)
+
+Time : 03:23:51
+SQLSTATE[HY000] [2002] No such file or directory
+
+Time : 03:23:50
+SQLSTATE[HY000] [2002] No such file or directory
+
+Time : 02:10:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+Raw SQL : SELECT * FROM product where id=38
+
+Time : 02:09:39
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user_detail WHERE uid = :userid
+
+Time : 02:08:14
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user_detail WHERE uid = :userid
+
+Time : 02:06:23
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM user_detail WHERE uid = :userid

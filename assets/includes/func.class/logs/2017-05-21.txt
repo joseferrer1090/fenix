@@ -1,0 +1,19 @@
+Time : 02:02:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '','5723')' at line 1
+Raw SQL : INSERT INTO bonus_date_logs(uid,date,datenextpay,nominal,fund_transaction_id) VALUES('103',NOW(),'2017-05-23',30','5723')
+
+Time : 01:56:20
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'fund_transaction_id' at row 1
+Raw SQL : INSERT INTO bonus_date_logs(uid,date,nominal,fund_transaction_id) VALUES('103',NOW(),'30','')
+
+Time : 01:52:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : INSERT INTO bonus_date_logs(uid,date,nominal,fund_transaction_id) VALUES(103,NOW(),30,)
+
+Time : 01:28:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.register_date' in 'where clause'
+Raw SQL : SELECT * FROM  user_id LEFT JOIN `bonus_date_logs` ON b.`uid`=u.uid WHERE u.register_date>='2017-04-21' AND u.register_date<='2017-05-21' AND u.state=2 AND u.product=38
+
+Time : 01:26:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id.banned=0' at line 1
+Raw SQL : SELECT * FROM  `product` INNER JOIN user_id ON user_id.product = product.product_id WHERE product_id =  and user_id.banned=0

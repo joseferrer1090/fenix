@@ -1,0 +1,39 @@
+Time : 11:36:58
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE uid = :userrid
+
+Time : 10:50:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)
+
+Time : 10:49:47
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)
+
+Time : 10:49:36
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)
+
+Time : 10:49:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)
+
+Time : 10:30:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT COUNT(uid) as jumlah FROM user_id WHERE  uname <> 'a'  AND state = :state AND role <> '0'
+
+Time : 10:29:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT COUNT(uid) as jumlah FROM user_id WHERE  uname <> 'a'  AND state = :state AND role <> '0'
+
+Time : 10:29:49
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE  uname <> 'a'  AND state = :state AND role <> '0' ORDER BY uid ASC LIMIT 10 OFFSET :page
+
+Time : 10:28:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM user_id WHERE  uname <> 'a'  AND state = :state AND role <> '0' ORDER BY uid ASC LIMIT 10 OFFSET :page
+
+Time : 10:25:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+Raw SQL : SELECT * FROM user_id WHERE  uname <> 'a'  AND status = :status AND role <> '0' ORDER BY uid ASC LIMIT 10 OFFSET :page

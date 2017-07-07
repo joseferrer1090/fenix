@@ -1,0 +1,15 @@
+Time : 10:23:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : INSERT INTO devident_log(nominal,`uid`,opendate,status) VALUES (:nominal,:userid,NOW(),'OPEN'
+
+Time : 10:21:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : INSERT INTO devident_log(nominal,`uid`,opendate,status) VALUES (:nominal,:userid,NOW(),'OPEN'
+
+Time : 06:13:21
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM devident_timeline WHERE devident_id = :idDevUser LIMIT 10 OFFSET :page
+
+Time : 06:12:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM devident_timeline WHERE devident_id = :idDevUser LIMIT 10 OFFSET :page

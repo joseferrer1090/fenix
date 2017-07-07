@@ -1,0 +1,7 @@
+Time : 23:37:01
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)
+
+Time : 23:36:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:money)

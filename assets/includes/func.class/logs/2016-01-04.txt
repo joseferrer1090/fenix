@@ -1,0 +1,149 @@
+Time : 21:50:19
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 21:46:22
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 21:46:20
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 21:46:17
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 21:41:24
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 21:41:22
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:19:08
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:19:06
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:14:07
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:13:27
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:13:13
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:12:46
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:12:43
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 12:08:27
+SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+Time : 01:04:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NU' at line 2
+Raw SQL : DROP TABLE IF EXISTS `paypal_invoice`;
+DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invoice_id` varchar(200) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '1 COMPLETED 0 PENDING',
+  `date` datetime NOT NULL,
+  `buyer` int(11) NOT NULL,
+  `gateway` varchar(11) NOT NULL,
+  `amount` float(255,3) NOT NULL,
+  `notes` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+
+Time : 00:50:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NU' at line 2
+Raw SQL : DROP TABLE IF EXISTS `paypal_invoice`;
+DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invoice_id` varchar(200) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '1 COMPLETED 0 PENDING',
+  `date` datetime NOT NULL,
+  `buyer` int(11) NOT NULL,
+  `gateway` varchar(11) NOT NULL,
+  `amount` float(255,3) NOT NULL,
+  `notes` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+
+Time : 00:38:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0'' at line 1
+Raw SQL : SELECT * FROM fund_transaction WHERE  (to_id <> :to OR from_id <> :from)  ORDER BY trans_id DESC LIMIT 10 OFFSET :page
+
+Time : 00:38:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM `login_log` WHERE `uname` = :uname ORDER BY id DESC LIMIT :limitx
+
+Time : 00:38:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM `login_log` WHERE `uname` = :uname ORDER BY id DESC LIMIT :limitx
+
+Time : 00:37:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM `login_log` WHERE `uname` = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:37:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM `login_log` WHERE `uname` = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:35:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM login_log WHERE uname = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:35:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM login_log WHERE uname = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:28:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM login_log WHERE uname = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:28:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+Raw SQL : SELECT * FROM login_log WHERE uname = :uname ORDER BY id DESC LIMIT :limit
+
+Time : 00:15:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DROP TABLE IF EXISTS invoice;
+CREATE TABLE invoice (
+  id int(11) NOT NULL AUT' at line 2
+Raw SQL : DROP TABLE IF EXISTS paypal_invoice;
+DROP TABLE IF EXISTS invoice;
+CREATE TABLE invoice (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  invoice_id varchar(200) NOT NULL,
+  status int(11) NOT NULL COMMENT '1 COMPLETED 0 PENDING',
+  date datetime NOT NULL,
+  buyer int(11) NOT NULL,
+  gateway varchar(11) NOT NULL,
+  amount float(255,3) NOT NULL,
+  notes text,
+  PRIMARY KEY (id)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+
+Time : 00:13:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NU' at line 2
+Raw SQL : DROP TABLE IF EXISTS `paypal_invoice`;
+DROP TABLE IF EXISTS `invoice`;
+CREATE TABLE `invoice` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invoice_id` varchar(200) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '1 COMPLETED 0 PENDING',
+  `date` datetime NOT NULL,
+  `buyer` int(11) NOT NULL,
+  `gateway` varchar(11) NOT NULL,
+  `amount` float(255,3) NOT NULL,
+  `notes` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;

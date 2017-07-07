@@ -1,0 +1,7 @@
+Time : 23:17:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'products.product_id' in 'on clause'
+Raw SQL : SELECT points as total FROM product inner join user_id on user_id.product=products.product_id WHERE uid=:uid
+
+Time : 23:17:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'products.product_id' in 'on clause'
+Raw SQL : SELECT points as total FROM product inner join user_id on user_id.product=products.product_id WHERE uid=:uid

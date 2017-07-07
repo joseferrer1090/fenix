@@ -1,0 +1,7 @@
+Time : 17:49:27
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE (type = 6 AND from_id = :from_id) OR (type = 10 AND to_id = :to_id) OR (type = 11 AND to_id = :to_id);
+
+Time : 17:49:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT SUM(nominal) as funds FROM fund_transaction WHERE (type = 6 AND from_id = :from_id) OR (type = 10 AND to_id = :to_id) OR (type = 11 AND to_id = :to_id);

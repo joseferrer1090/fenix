@@ -1,0 +1,3 @@
+Time : 14:00:47
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user_bank(bank_name,branch_name,acnumber,bankholder,swiftcode,uid) VALUES(:bname,:brname,:acnum,:holder,:swift,:uid)

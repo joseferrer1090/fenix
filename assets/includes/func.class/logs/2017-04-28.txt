@@ -1,0 +1,11 @@
+Time : 13:09:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_id(uname,password,register_date,role,product,state) VALUES(:uname,:pass,CURDATE(),'1',:product,:state)
+
+Time : 13:06:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO user_id(uname,password,pin,register_date,role,product,state) VALUES(:uname,:pass,:pin,CURDATE(),'1',:product,:state)
+
+Time : 12:23:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user_detail(uid,first_name,last_name,gender,email,mobile,phone,state,city,zip,address,relation,country,beneficiary,money) VALUES(:uid,:fname,:lname,:gender,:email,:mobile,:phone,:state,:city,:zip,:address,:rel,:country,:bene,:amount)
